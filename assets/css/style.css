@@ -1,0 +1,44 @@
+  
+body {
+	background-image: url(../images/background.jpg);
+}
+
+
+.container {
+	width: 80%;
+	position: absolute;
+	
+	left: 10%;
+	padding-bottom: 30px;
+}
+
+#title {
+text-align: center;
+}
+
+#title-description {
+	text-align: center;
+}
+
+#title-button {
+	margin-left: 41%;
+}
+
+.jumbotron {
+	background-color: transparent;
+    height: 400px;
+    color: white;
+}
+
+.intro {
+	color: white;
+	text-align: center;
+}
+
+p {
+	color: white;
+}
+
+.input-label {
+	color: white;
+}
