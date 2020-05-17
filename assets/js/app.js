@@ -40,7 +40,7 @@ $(document).ready(function(){
     var game = $(this).html(); 
     console.log(game);
     
-    var queryURL = "http://api.giphy.com/v1/gifs/search?q=" + game + "&api_key=F1i9203sS2xotoy2ILMs5FlvQrtFdHn0&limit=10";
+    var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + game + "&api_key=F1i9203sS2xotoy2ILMs5FlvQrtFdHn0&limit=10";
 
     $.ajax({url: queryURL, method: 'GET'})
         .done(function(response) {
